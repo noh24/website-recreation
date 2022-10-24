@@ -6,5 +6,34 @@
 </head>
 <body>
   <h1>Favorite Things!</h1>
+  <div>
+    <h1>Enter stuff so I can put it into an array</h1>
+    <form>
+      <div>
+        <label for="credit">Enter your credit card number:</label>
+        <input id="credit" type="text" name="enter-array" placeholder="Enter your Credit Card Number">
+      </div>
+      <div>
+        <label for="dob">What is your DOB?</label>
+        <input id="dob" type="text" name="enter-array" placeholder="Enter your Date of Birth">
+      </div>
+      <div>
+        <label for="social">What is your social security number?</label>
+        <input id="social" type="text" name="enter-array" placeholder="Enter your Social Security Number">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div>
+      <p id="array"></p>
+    </div>
+  </div>
 </body>
 </html>
+
+<!-- Build a page with a form containing input fields where users may enter several of their favorite things. -->
+<!-- Then, write code that gathers each of these form input values and places them into one array. -->
+
+<!-- After this is done, use your site to practice targeting and moving elements between arrays: -->
+<!-- Use square bracket notation to access the second, first, and third elements of the original array of favorite things. -->
+<!-- Then, use Array.prototype.push() to add only these elements (2nd, 1st, and 3rd) to a brand new array. -->
+<!-- Finally, display this new array in your page's HTML as list items in a <ul> tag. Use the document.createElement() and Element.append() or Element.prepend() methods to create and add elements to your webpage. -->
